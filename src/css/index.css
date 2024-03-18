@@ -1,0 +1,147 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+    height: 50px;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(34, 33, 33);
+    z-index: 2;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link {
+    text-decoration:none;
+    display: block;
+    margin-top: 4px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(163, 163, 163);
+}
+.menu .menu_item {
+    border-right: 2px dotted rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 40px;
+}
+.subheader {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(38,38,38, 0.7);
+    position: fixed;
+    border-bottom: 10px solid black;
+    height: 200px;
+    top: 4px;
+    top: -140px;
+    transition: top 1s ease-in-out;
+}
+.subheader:hover {
+    top: 0;
+}
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 50px;
+    padding-top: 30px;
+    width: 30px;
+    height: 50px;
+}
+.subheader .subheader_official {
+    font-size: 15px;
+    margin-left: 120px;
+    color: rgb(255, 255, 255);
+}
+.subheader .name {
+    display: block;
+    margin-left: 120px; 
+}
+.promo {
+    background-size: auto;
+    width: 100;
+    min-height: 880px;
+    background: url(../img/36f150a1e85bcc24b1b82f769f608b7c.jpg) center center/cover no-repeat;
+    padding: 150px 0 135px 0; 
+}
+.subheader .phone_text {
+    margin-top: 90px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+.subheader .tech_podder {
+    font-size: 12px;
+    margin-left: 52px;
+    color:#ffffff;
+}
+.subheader .subheader_phone {
+    text-decoration:none;
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 52px;
+}
+.subheader .subheader_btn {
+    margin-top: 95px;
+    margin-left: -50px;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #bcc1c3 0%, #616464 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 70px;
+    color: #ffffff;
+}
+.promo .promo_subheader {
+    text-align: center;
+    color:#df1616
+}
+.promo .promo_descr {
+    text-align: center;
+    color:#ffffff;
+    font-size: 30px;
+}
+.promo .promo_btn {
+    margin-top: 100px;
+    margin-left: 425px;
+    width: 200px;
+    height: 90px;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #bcc1c3 0%, #616464 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.reasons  {
+    background-size: auto;
+    width: 100;
+    min-height: 880px;
+    border: 20px solid black;
+    background: url(../img/Part2.jpg) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.reasons .reasons_icons {
+    display: block;
+    margin-left: 300px;
+    
+}
